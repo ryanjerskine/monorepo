@@ -1,0 +1,120 @@
+.spacer {
+    flex: 1 1 auto;
+    @media only screen and (max-width : 625px) {
+      text-align: center;
+    }
+    & > a {
+      color: #3f51b4;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+  }
+  .btn-account,
+  .btn-login {
+    @media only screen and (max-width : 625px) {
+      display: none;
+    }
+  }
+  .btn-login-mobile {
+    display: none;
+    @media only screen and (max-width : 625px) {
+      display: block;
+    }
+  }
+  img.avatar {
+    max-width: 175px;
+    border-radius: 50%;
+    background-color: #3f51b4;
+    padding-top: 12px;
+    margin-bottom: 2rem;
+  }
+  img.technology {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 3rem;
+    margin-bottom: -1px;
+  }
+  .intro {
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+    background-color:#3f51b4;
+    color: white;
+  }
+  .intro > p {
+    text-align: center;
+    max-width: 820px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .about {
+    display: flex;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4rem;
+    margin-bottom: 3rem;
+  }
+  .about > div {
+    flex: 1;
+  }
+  .about .mat-icon {
+    width: 55px;
+    height: 55px;
+    font-size: 55px;
+  }
+  .copyright {
+    margin: auto;
+    color: #ffffff94;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 1rem;
+  }
+  .mobile-break {
+    display: none;
+    @media only screen and (max-width : 550px) {
+      display: block;
+    }
+  }
+  
+  mat-sidenav {
+    width: 350px;
+  }
+  mat-sidenav .user-banner {
+    height: 150px;
+    margin-top: -8px;
+    background: url(/assets/img/background.svg);
+    position: relative;
+    .mat-fab.mat-accent {
+      background-color: white;
+      color: #3f51b4;
+      position: absolute;
+      top: 20px;
+      left: 15px;
+    }
+    .mat-button {
+      color: white;
+      position: absolute;
+      bottom: 10px;
+      font-size: 18px;
+      width: 100%;
+      text-align: left;
+      .mat-icon {
+        float: right;
+        margin-top: 5px;
+      }
+      ::ng-deep .mat-button-focus-overlay {
+        display: none!important;
+      }
+    }
+  }
+  .icon-lg {
+    height: 45px;
+    width: 45px;
+    font-size: 45px;
+    margin-top: -10px;
+  }
+  

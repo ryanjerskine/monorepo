@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ryanjerskine-root',
+  selector: 'website-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
